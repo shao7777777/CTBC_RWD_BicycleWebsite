@@ -1,0 +1,155 @@
+.contact-content {
+    margin-left: 20px;
+}
+
+.contact-content h3 {
+    font-weight: bold;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+.table th {
+    color: #b2b2b2;
+    width: 30%;
+}
+
+.table th,
+table td {
+    padding-bottom: 20px;
+}
+
+.table a {
+    color: #000;
+}
+
+.social-icon .icon-list {
+    margin-top: 15px;
+    justify-content: left;
+}
+
+.social-icon .bi {
+    font-size: 1.8rem;
+    color: #3b3b3b;
+}
+
+.social-icon .bi:hover {
+    color: #858585;
+}
+
+.map {
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.form-container {
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+    width: 98%;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px
+}
+
+.radio-group,
+.checkbox-group {
+    margin-bottom: 16px
+}
+
+.radio-group label,
+.checkbox-group label {
+    font-weight: normal;
+    margin-right: 20px
+}
+
+textarea {
+    resize: vertical
+}
+
+input[type="submit"] {
+    width: 80px;
+    background-color: #7f7f7f;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+input[type="submit"]:hover {
+    background-color: #898989
+}
+
+@media (max-width:768px) {
+    .contact-content {
+        margin-left: 0;
+    }
+
+    .contact-content h3{
+        font-size: 1.3rem;
+    }
+
+    .table {
+        font-size: 0.9rem;
+    }
+
+    .table th,
+    table td {
+        padding-bottom: 10px;
+    }
+
+    .social-icon .bi {
+        font-size: 1.5rem;
+        color: #3b3b3b;
+    }
+
+    .map {
+        margin-top: 70px;
+        margin-bottom: 60px;
+    }
+}
+
+
+@media (max-width:576px) {
+    .contact-content {
+        margin-top: 20px;
+    }
+
+    .map {
+        margin-top: 60px;
+    }
+
+    .map iframe {
+        height: 400px;
+    }
+}
