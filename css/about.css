@@ -137,11 +137,11 @@
 
 @media (max-width:576px) {
     .separator {
-        margin: 0 5px;
+        margin: 0 8px;
     }
 
-    .square {
-        margin-right: 5px;
+    .card-item .square{
+        display: none;
     }
 
     .about-content {
