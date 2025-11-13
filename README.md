@@ -1,7 +1,6 @@
 # RWD 應用實踐：自行車主題多頁面網站
 
-專案說明 (Project Description)
---
+**專案說明 (Project Description)**  
 本專案為一個**多頁面** (Multi-Page) 的自行車主題網站，旨在挑戰處理更為複雜的網頁結構與導航系統。核心目標是實現在多個頁面間一致且響應式的導航體驗，並利用 Bootstrap 的排版系統來建立穩定的 RWD 佈局。
 
 核心技術與設計理念
@@ -17,29 +16,8 @@
 
 專案架構 (Project Structure)
 --
-ˋˋˋ
-/CTBC_RWD_BicycleWebsite
-├── css/
-│   ├── about.css
-│   ├── bootstrap-grid.min.css # Bootstrap Grid System
-│   ├── bootstrap-reboot.min.css # Bootstrap Reset
-│   ├── contact.css
-│   ├── guide.css
-│   ├── news.css
-│   ├── product.css
-│   ├── share.css  # 共同樣式
-│   └── style.css  # 核心樣式
-├── img/           # 圖片資源
-├── pages/
-│   ├── about.html
-│   ├── contact.html
-│   ├── guide.html
-│   ├── news.html
-│   └── product.html
-├── index.html     # 網站主頁面結構
-├── main.js        # 漢堡選單等主要 JS 邏輯
-└── README.md
-ˋˋˋ
+<img width="600" height="758" alt="image" src="https://github.com/user-attachments/assets/7f4c4232-c660-4a1e-8306-6b7d42eae9f6" />
+
 
 介面預覽 (Preview)
 --
